@@ -9,7 +9,7 @@ const socials = [
     icon: <Linkedin size={20} />,
     href: "https://www.linkedin.com/in/akash-ganamukhi/",
     label: "LinkedIn",
-    handle: "@AkashGanamukhi",
+    handle: "@Akash",
  },
  {
     icon: <Mail size={20} />,
@@ -29,8 +29,8 @@ export default function Example() {
     const handleResumeDownload = () => {
         // Create a temporary anchor element
         const link = document.createElement('a');
-        link.href = '/MyResume.pdf'; // Ensure this path is correct in your public folder
-        link.download = 'MyResume.pdf';
+        link.href = 'Final.pdf'; // Ensure this path is correct in your public folder
+        link.download = 'Akash_Resume.pdf';
         
         // Append to the body, click, and remove
         document.body.appendChild(link);

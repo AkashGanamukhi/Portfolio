@@ -5,58 +5,40 @@ import { Card } from "../components/card";
 // You can replace this with your own project data
 const allProjects = [
   {
-    title: "The Art Of Transformation",
-    description: "A hybrid architecture combining GANs and VAEs to achieve image style transfer.",
+    title: "Wgtsearch",
+    description: "An interactive multimodal image search system using OpenAI CLIP model",
     date: "2024-08-17",
-    githubLink: "https://github.com/BRArjun/The-Art-Of-Transformation"
+    githubLink: "https://github.com/AkashGanamukhi/wgtsearch"
   },
   {
     title: "DevForge",
     description: "An AI-powered, web based development platform that coverts natural language descriptions to functional code. ",
     date: "2024-10-22",
-    githubLink: "https://github.com/BRArjun/DevForge"
+    githubLink: "https://github.com/AkashGanamukhi/DevForge"
   },
   {
     title: "Cropify",
     description: "A web application that makes use of ML models to optimize plant yield and diagnose plant diseases.",
     date: "2024-01-05",
-    githubLink: "https://github.com/BRArjun/Cropify_ML-WebDev"
+    githubLink: "https://github.com/AkashGanamukhi/Cropify"
   },
   {
-    title: "TUIPad",
-    description: "An AI-powered text editor built with the ncurses library.",
+    title: "finBERT",
+    description: "Financial Sentiment Analysis with BERT",
     date: "2024-06-21",
-    githubLink: "https://github.com/BRArjun/TUITextEditor_Linux"
+    githubLink: "https://github.com/AkashGanamukhi/finBERT"
   },
   {
-    title: "ToDoIt",
-    description: "A todo list application implemented in C for understanding data structures using GTK 3.0 implementing the UI.",
-    date: "2024-06-01",
-    githubLink: "https://github.com/BRArjun/ToDoList_DataStructs"
+    title: "ContractSense",
+    description: "Smart Contract Analysis",
+    date: "2025-06-21",
+    githubLink: "https://github.com/AkashGanamukhi/contract_sense"
   },
   {
-    title: "Pieces",
-    description: "A small BitTorrent client that supports torrent downloads made using the asyncio library.",
-    date: "2024-06-12",
-    githubLink: "https://github.com/BRArjun/PiecesClient_Networking"
-  },
-  {
-    title: "ARify",
-    description: "A simple AR application that lets you render 3D models on top of a reference surface in a live video feed.",
-    date: "2024-06-11",
-    githubLink: "https://github.com/BRArjun/ARify_AR-VR"
-  },
-  {
-    title: "GamifiedPortfolio",
-    description: "A casual portfolio website made using KaboomJS for adding gamified elements.",
-    date: "2023-03-31",
-    githubLink: "https://github.com/BRArjun/KaboomJS_Web-GameDev"
-  },
-  {
-    title: "Attendee",
-    description: "An OpenCV based facial recognition system with an integrated attendance recorder.",
-    date: "2023-12-29",
-    githubLink: "https://github.com/BRArjun/FacialRecoAttendanceSystem_ML"
+    title: "BeInFashion",
+    description: "Fashion Factory DBMS",
+    date: "2024-02-21",
+    githubLink: "https://github.com/AkashGanamukhi/DBMSProject"
   }
 ];
 
