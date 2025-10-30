@@ -29,7 +29,7 @@ export default function Example() {
     const handleResumeDownload = () => {
         // Create a temporary anchor element
         const link = document.createElement('a');
-        link.href = 'Final.pdf'; // Ensure this path is correct in your public folder
+        link.href = './Final.pdf'; // Ensure this path is correct in your public folder
         link.download = 'Akash_Resume.pdf';
         
         // Append to the body, click, and remove
