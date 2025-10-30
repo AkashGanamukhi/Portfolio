@@ -77,7 +77,6 @@ export default function Example() {
                             className="flex items-center justify-center gap-2 px-4 py-2 text-sm text-zinc-200 border border-zinc-500 rounded-full hover:bg-zinc-900 hover:text-white transition-colors duration-300"
                         >
                             <Download size={16} />
-                            Download Resume
                         </button>
                     </div>
                 </div>
